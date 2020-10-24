@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from multiproces import Pool
+from multiprocess import Pool
 from time import sleep
 """
   This is an example of process based parallelism.
@@ -13,7 +13,7 @@ from time import sleep
   supports class methods and other complexity.
 """
 
-def worker_main():
+def worker_main(work):
     sleep(5)
 
 def main():
